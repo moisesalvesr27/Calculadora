@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <input id="resultado" type="text" class="item xp" placeholder="0" disabled="disabled" />
+            
+                <button  onclick="calcular('acao','c')" type="button" class="item zeroclean">C</button>
+                <button onclick="calcular('acao','%')" type="button" class="item">r</button>
+                <button onclick="calcular('acao','/')" type="button" class="item">/</button>
+                <button onclick="calcular('acao','*')" type="button" class="item">x</button>
+                
+                <button onclick="calcular('valor', 7)" type="button" class="item">7</button>
+                <button onclick="calcular('valor', 8)" type="button" class="item">8</button>
+                <button onclick="calcular('valor', 9)" type="button" class="item">9</button>
+                <button onclick="calcular('acao',')')" type="button" class="item">)</button>
+                <button onclick="calcular('acao','-')" type="button" class="item">-</button>
+                
+                <button onclick="calcular('valor', 4)" type="button" class="item">4</button>
+                <button onclick="calcular('valor', 5)" type="button" class="item">5</button>
+                <button onclick="calcular('valor', 6)" type="button" class="item">6</button>
+                <button onclick="calcular('acao','(')" type="button" class="item">(</button>
+                <button onclick="calcular('acao','+')" type="button" class="item">+</button>
+    
+                <button onclick="calcular('valor', 1)" type="button" class="item">1</button>
+                <button onclick="calcular('valor', 2)" type="button" class="item">2</button>
+                <button onclick="calcular('valor', 3)" type="button" class="item">3</button>
+                <button onclick="calcular('acao','p')" type="button" class="item porcentagem">%</button>
+                <button onclick="calcular('acao','=')" type="button" class="item igual">=</button>
+                
+                <button onclick="calcular('valor', 0)" type="button" class="item zeroclean">0</button>
+                <button onclick="calcular('acao','.')" type="button" class="item">.</button>                       
+        </div>
+        <p>Feito por: <span>Moisés A. Rabelo</span><p>
+        <script type="text/javascript" src="js/main.js"></script>  
+    </body>
+</html>
